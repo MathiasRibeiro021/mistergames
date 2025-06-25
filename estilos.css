@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #25D366;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00ffcc;
+}
+
+.console-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.console-gallery img {
+    width: 160px;
+    height: 160px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    object-fit: cover;
+}
+
+.services {
+    max-width: 600px;
+    margin: auto;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+.contacto p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Botón flotante de WhatsApp con imagen personalizada */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-float img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.redes-sociales img {
+    width: 40px;
+    height: 40px;
+    filter: invert(1); /* pone blanco sobre fondo oscuro */
+    transition: transform 0.2s ease;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    font-size: 0.9em;
+    color: #aaa;
+}
